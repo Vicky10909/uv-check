@@ -1,0 +1,89 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 30px;
+    align-items: center;
+}
+
+h1 {
+    color: #FF9843;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-size: 3em;
+    font-style: normal;
+}
+
+input[type=text] {
+    margin: 20px;
+    padding: 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #FAEF9B;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type=submit]:hover {
+    background-color: #F8E559
+}
+
+input[value="City Name"] {
+    color: #ccc;
+    font-style: italic;
+}
+
+input[value="City Name"]:focus {
+    color: black;
+    font-style: italic;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 0;
+    animation: fadeIn 5s;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: larger;
+    font-style: normal;
+    line-height: 2;
+
+}
+
+.strong {
+    color: #FF9843;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    input[type=submit] {
+        margin-left: 100px;
+    }
+}

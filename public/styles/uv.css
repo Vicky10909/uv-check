@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings: "wdth" 100;
+}
+
+.index {
+    font-size: 2em;
+    color: #FAA300;
+    border: 1px solid #FAA300;
+}
+
+.max-index {
+    color: #FAA300;
+    border: 1px solid #FAA300;
+}
+
+.safe-tip {
+    background-color: #FFFAF4;
+    height: 120px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.tip {
+    background-color: #FFFAF4;
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.advice {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-align: center;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+    color: #FAA300;
+    margin: 0;
+    padding-top: 10px;
+    line-height: 1.6;
+}
+
+.tip-detail {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.advice-detail {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.strong {
+    color: #F4538A;
+}
+
+.uvMax {
+    color: black;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings: "wdth" 100;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+button {
+    border: none;
+    background-color: #FAEF9B;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 100px;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5em;
+        /* Decrease font size for smaller screens */
+    }
+
+    .index {
+        font-size: 1.5em;
+        /* Decrease font size for smaller screens */
+    }
+
+    .max-index {
+        font-size: 1.5em;
+        /* Decrease font size for smaller screens */
+    }
+
+    .safe-tip {
+        height: 150px;
+        /* Adjust height for smaller screens */
+        margin-top: 10px;
+        /* Adjust margin for smaller screens */
+        padding-top: 15px;
+    }
+
+    .tip {
+        height: 200px;
+        /* Adjust height for smaller screens */
+        margin-top: 30px;
+        /* Adjust margin for smaller screens */
+        padding-top: 30px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .advice {
+        font-size: 1.5em;
+        /* Decrease font size for smaller screens */
+        margin-top: 0;
+        /* Adjust margin for smaller screens */
+    }
+
+    .tip-detail,
+    .advice-detail {
+        font-size: 16px;
+        /* Decrease font size for smaller screens */
+        margin-top: 70px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .button {
+        margin-top: 80px;
+        /* Adjust margin for smaller screens */
+    }
+
+    button {
+        margin: 20px;
+        /* Adjust margin for smaller screens */
+    }
+}

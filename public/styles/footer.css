@@ -1,0 +1,12 @@
+footer {
+    display: block;
+    height: 5vh;
+    background-color: #F9ED69;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    font-family: "Nunito", sans-serif;
+    padding-top: 10px;
+}
